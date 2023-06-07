@@ -9,4 +9,4 @@ const produto1 = new Object();
 produto1.titulo = 'Arroz';
 produto1.preco = 4.99;
 
-alert(produto);
+alert(produto1);
