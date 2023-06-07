@@ -20,4 +20,4 @@ produto3.preco = 15.99;
 produtos.push(produto1, produto2, produto3)
 console.log(produtos);
 
-appDiv.innerHTML = $`<h1>{produtos}</h1>`;
+appDiv.innerHTML = `<h1>{produtos}</h1>`;
