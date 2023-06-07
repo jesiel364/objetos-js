@@ -6,10 +6,12 @@ const appDiv = document.getElementById('app');
 
 const produtos = [];
 const produto1 = new Object();
+produto1.id = 1;
 produto1.titulo = 'Arroz';
 produto1.preco = 4.99;
 
 const produto2 = new Object();
+produto2.id = 2;
 produto2.titulo = 'Feijão';
 produto2.preco = 10.0;
 
@@ -28,7 +30,7 @@ for(let i = 0; i < produtos.length; i++){
 	let td_titulo = tr.insertCell()
 	let td_preco = tr.insertCell()
 	
-	td_id.innerText
+	td_id.innerText = produtos[i].id
 	appDiv.innerHTML += `<h1>${produtos[i].titulo}</h1>`;
 	appDiv.innerHTML += `<p>${produtos[i].preco}</>`;
 }
