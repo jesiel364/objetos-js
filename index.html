@@ -60,8 +60,8 @@
 // }
 import { getFirestore } from "firebase/firestore"
 import { collection, getDocs } from "firebase/firestore";
-const app
-const db = getFirestore
+
+const db = getFirestore(app)
 
 const querySnapshot = await getDocs(collection(db, "users"));
 querySnapshot.forEach((doc) => {
