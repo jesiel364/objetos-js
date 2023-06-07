@@ -33,7 +33,7 @@ for(let i = 0; i < produtos.length; i++){
 	
 	td_id.innerText = produtos[i].id
 	td_titulo.innerText = produtos[i].titulo
-	td_preco.innerText ='R$' produtos[i].preco
+	td_preco.innerText ='R$'+ produtos[i].preco
 	appDiv.innerHTML += `<h1>${produtos[i].titulo}</h1>`;
 	// appDiv.innerHTML += `<p>${produtos[i].preco}</>`;
 }
