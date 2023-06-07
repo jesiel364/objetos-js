@@ -58,10 +58,10 @@
 // } catch (e) {
 //   console.error("Error adding document: ", e);
 // }
-
+import { getFirestore } from "firebase/firestore"
 import { collection, getDocs } from "firebase/firestore";
-
-const db = app()
+const app
+const db = getFirestore
 
 const querySnapshot = await getDocs(collection(db, "users"));
 querySnapshot.forEach((doc) => {
