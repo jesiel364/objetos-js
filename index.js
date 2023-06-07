@@ -13,7 +13,7 @@ const produto2 = new Object();
 produto1.titulo = 'Feijão';
 produto1.preco = 10.0;
 
-const produto1 = new Object();
+const produto = new Object();
 produto1.titulo = 'Peixe';
 produto1.preco = 15.99;
 
