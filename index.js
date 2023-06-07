@@ -24,6 +24,7 @@ let tbody = document.getElementById('tbody')
 
 for(let i = 0; i < produtos.length; i++){
 	let tr = tbody.insertRow()
+	
 	appDiv.innerHTML += `<h1>${produtos[i].titulo}</h1>`;
 	appDiv.innerHTML += `<p>${produtos[i].preco}</>`;
 }
