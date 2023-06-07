@@ -9,4 +9,12 @@ const produto1 = new Object();
 produto1.titulo = 'Arroz';
 produto1.preco = 4.99;
 
+const produto2 = new Object();
+produto1.titulo = 'Feijão';
+produto1.preco = 10.0;
+
+const produto1 = new Object();
+produto1.titulo = 'Peixe';
+produto1.preco = 15.99;
+
 alert(produto1);
