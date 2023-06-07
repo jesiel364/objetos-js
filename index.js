@@ -17,4 +17,5 @@ const produto1 = new Object();
 produto1.titulo = 'Peixe';
 produto1.preco = 15.99;
 
+produtos.push(produto1, produ)
 alert(produto1);
