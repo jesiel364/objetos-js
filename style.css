@@ -7,6 +7,10 @@ body{
 	color: #fefefe;
 }
 
+table{
+	background-color: ;
+}
+
 th, td {
   border:1px solid black;
 }
