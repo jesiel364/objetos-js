@@ -10,10 +10,10 @@ produto1.titulo = 'Arroz';
 produto1.preco = 4.99;
 
 const produto2 = new Object();
-produto1.titulo = 'Feijão';
-produto1.preco = 10.0;
+produto2.titulo = 'Feijão';
+produto2.preco = 10.0;
 
-const produto = new Object();
+const produto3 = new Object();
 produto1.titulo = 'Peixe';
 produto1.preco = 15.99;
 
