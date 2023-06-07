@@ -18,4 +18,4 @@ produto1.titulo = 'Peixe';
 produto1.preco = 15.99;
 
 produtos.push(produto1, produto2, produto3)
-alert(produtos);
+conaole(produtos);
