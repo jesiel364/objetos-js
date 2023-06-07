@@ -22,4 +22,5 @@ console.log(produtos);
 
 for(let i = 0; i < produtos.length; i++){
 	appDiv.innerHTML += `<h1>${produtos[i].titulo}</h1>`;
+	appDiv.innerHTML += `<p>${produtos[i].preco}</>`;
 }
