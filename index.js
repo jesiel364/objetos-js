@@ -16,6 +16,7 @@ produto2.titulo = 'Feijão';
 produto2.preco = 10.0;
 
 const produto3 = new Object();
+produto3.id= 3;
 produto3.titulo= 'Peixe';
 produto3.preco = 15.99;
 
