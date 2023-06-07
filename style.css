@@ -11,9 +11,10 @@ table{
 	background-color: #282828;
 	width: 100%;
 	font-size: 18px;
+	border: none;
 }
 
 th, td {
-  border: none;
+  
   background-color: grey;
 }
