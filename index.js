@@ -2,7 +2,7 @@
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+
 
 const produtos = [];
 const produto1 = new Object();
@@ -19,3 +19,5 @@ produto3.preco = 15.99;
 
 produtos.push(produto1, produto2, produto3)
 console.log(produtos);
+
+appDiv.innerHTML = $`<h1>{}</h1>`;
