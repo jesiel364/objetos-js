@@ -6,7 +6,7 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 const produtos = [];
 const produto1 = new Object();
-produto.titulo = 'Arroz';
-produto.preco = 4.99;
+produto1.titulo = 'Arroz';
+produto1.preco = 4.99;
 
 alert(produto);
