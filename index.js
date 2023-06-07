@@ -32,6 +32,8 @@ for(let i = 0; i < produtos.length; i++){
 	let td_preco = tr.insertCell()
 	
 	td_id.innerText = produtos[i].id
+	td_.innerText = produtos[i].id
+	td_id.innerText = produtos[i].id
 	appDiv.innerHTML += `<h1>${produtos[i].titulo}</h1>`;
 	appDiv.innerHTML += `<p>${produtos[i].preco}</>`;
 }
